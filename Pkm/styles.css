@@ -1,0 +1,71 @@
+        /* Estilos básicos para la página */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            background-color: #222A68;
+        }
+
+        /* Estilos para la barra de búsqueda */
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .search-container input,
+        .search-container select {
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+            transition: border-color 0.3s;
+        }
+
+        .search-container input:focus,
+        .search-container select:focus {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+        .search-container button {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .search-container button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilos para los contenedores de Pokémon */
+        .pokemon-container {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .pokemon-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        .pokemon-card img {
+            max-width: 100%;
+        }
